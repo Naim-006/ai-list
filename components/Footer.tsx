@@ -9,7 +9,7 @@ export const Footer: React.FC = () => {
            <span className="font-semibold bg-gradient-to-r from-sky-400 to-emerald-400 text-transparent bg-clip-text">
             Powered by{' '}
             <a
-              href="https://nextbyte-it.netlify.app/"
+              href="https://nextbyte-it.netlify.app/about#team"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:underline"
@@ -18,17 +18,7 @@ export const Footer: React.FC = () => {
             </a>
           </span>
           <span className="text-slate-600 hidden sm:inline">|</span>
-           <span>
-            Developed by{' '}
-            <a
-              href="https://nextbyte-it.netlify.app/about#team"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-semibold text-slate-400 hover:text-sky-400 transition-colors hover:underline"
-            >
-              Md. Foysal Hossain
-            </a>
-          </span>
+          
         </div>
       </div>
     </footer>
